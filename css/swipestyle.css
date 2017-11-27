@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 768px;
+  height: 500px;
+  width: 100%;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 768px) {
+  body {margin: 0;}
+}
