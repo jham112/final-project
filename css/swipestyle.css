@@ -2,17 +2,34 @@
   box-sizing: border-box;
 }
 
+h1 {
+  text-align: center;
+}
+
 img {
   max-width: 768px;
   height: 500px;
   width: 100%;
-  margin-top: 3em;
+  margin-top: 2em;
   margin-bottom: 3em;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
+.swiper-slide {
+  text-align: center;
+}
+
+.swiper-pagination {
+  margin-bottom: 15px;
+}
+
 @media (max-width: 768px) {
-  body {margin: 0;}
+  body {margin: 3px;}
+  img {
+    max-width: 100%;
+    max-height: 80%;
+  }
+  .swiper-slide {text-align: justify;}
 }
