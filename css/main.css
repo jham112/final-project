@@ -9,6 +9,12 @@ body {
   padding-right: 400px;
 }
 
+p {
+  margin: auto;
+  text-align: justify;
+  margin-bottom: 15px;
+}
+
 form {
   display: block;
   margin-left: auto;
