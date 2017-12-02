@@ -7,27 +7,44 @@ body {
   text-align: center;
   padding-left: 400px;
   padding-right: 400px;
+  background: #BA3019;
+
+}
+
+h1 {font-family: 'Miniver', 'Brush Script MT', cursive;}
+
+h2 {font-family: 'Buda', 'Brush Script MT', cursive;}
+
+#container {
+  background: #fff;
+  padding: 20px;
+  padding-top: 0;
+  padding-bottom: 150px;
+  width: 100%;
 }
 
 p {
   margin: auto;
   text-align: justify;
   margin-bottom: 15px;
+  font-family: 'Slabo 27px', 'Times New Roman', Palatino, serif;
 }
 
 form {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  font-family: 'Slabo 27px', 'Times New Roman', Palatino, serif;
 }
 
-label {
-  margin: 10px;
+form {
+  padding-top: 20px;
 }
 
 option {
   font-size: 120%;
   margin: 10px;
+  font-family: 'Slabo 27px', 'Times New Roman', Palatino, serif;
 }
 
 
