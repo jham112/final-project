@@ -49,7 +49,7 @@ option {
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 750px) {
   body {
     margin: 3px;
     padding: 0;
