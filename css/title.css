@@ -10,12 +10,24 @@ h1 {
   font-family: 'Miniver', 'Brush Script MT', cursive;
   text-align: center;
   color: #fff;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+
 }
 
 h2 {
     font-family: 'Slabo 27px', 'Times New Roman', Palatino, serif;
     text-align: center;
     color: #fff;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+    
 }
 
 button {
