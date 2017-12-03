@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #BA3019;
+}
+
+h1 {
+  font-family: 'Miniver', 'Brush Script MT', cursive;
+  text-align: center;
+  color: #fff;
+}
+
+h2 {
+    font-family: 'Slabo 27px', 'Times New Roman', Palatino, serif;
+    text-align: center;
+    color: #fff;
+}
+
+button {
+    background-color: #e7e7e7;
+    border: 2px solid #000;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+    border-radius: 8px;
+    font-family: 'Slabo 27px', 'Times New Roman', Palatino, serif;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 768px) {
+  body {
+    margin: 3px;
+    padding: 0;
+  }
+  h1 p {
+    margin: 3px;
+    text-align: justify;
+  }
+}

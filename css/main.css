@@ -21,6 +21,7 @@ h2 {font-family: 'Buda', 'Brush Script MT', cursive;}
   padding-top: 0;
   padding-bottom: 150px;
   width: 100%;
+  border-radius: 6px;
 }
 
 p {
