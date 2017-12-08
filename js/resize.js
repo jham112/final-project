@@ -1,14 +1,14 @@
 $(document).ready(function() {
 
-  var viewerWidth = $( '.viewer' ).width();
+  var viewerWidth = $( '.vieweR' ).width();
   if (viewerWidth < 750) {
   	$( '.viewer' ).height( viewerWidth * 0.75 );
   }
 
   $( window ).resize(function() {
-  	var viewerWidth = $( '.viewer' ).width();
+  	var viewerWidth = $( '.vieweR' ).width();
   	if (viewerWidth < 750) {
-  		$( '.viewer' ).height( viewerWidth * 0.75 );
+  		$( '.vieweR' ).height( viewerWidth * 0.75 );
   	}
   });
 

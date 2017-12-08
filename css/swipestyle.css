@@ -27,7 +27,7 @@ img {
 
 
 .swiper-pagination {
-  margin-bottom: 0;
+  margin-bottom: 2px;
 }
 
 .sidenav {
@@ -88,9 +88,10 @@ img {
   img {
     width: 100%;
     height: auto;
-    margin-bottom: 0;
+    margin-bottom: 1px;
   }
   .swiper-slide {text-align: justify;}
+  .swiper-pagination {padding-top: 10px;}
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 20px;}
 }
