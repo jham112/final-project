@@ -63,7 +63,6 @@ img {
   font-size: 23px;
   color: #fff;
   font-family: 'Miniver', 'Brush Script MT', cursive;
-
 }
 
 .sidenav a:hover {
@@ -94,5 +93,5 @@ img {
   .swiper-slide {text-align: justify;}
   .swiper-pagination {padding: 5px;}
   .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+  .sidenav a {font-size: 20px;}
 }
