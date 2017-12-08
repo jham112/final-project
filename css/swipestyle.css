@@ -2,6 +2,8 @@
   box-sizing: border-box;
 }
 
+body {transition: background-color .5s;}
+
 h1 {
   text-align: center;
   font-family: 'Buda', 'Brush Script MT', cursive;
@@ -28,6 +30,60 @@ img {
   margin-bottom: 15px;
 }
 
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #E62528;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    font-family: 'Buda', 'Brush Script MT', cursive;
+}
+
+#swipeS {
+  font-family: 'Miniver', 'Brush Script MT', cursive;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+}
+
+#appName {
+  padding: 4px 2px 4px 20px;
+  text-decoration: none;
+  font-size: 23px;
+  color: #fff;
+  font-family: 'Miniver', 'Brush Script MT', cursive;
+
+}
+
+.sidenav a:hover {
+    color: #818181;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#vessel {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+
 @media (max-width: 700px) {
   body {margin: 5px;}
   img {
@@ -37,4 +93,6 @@ img {
   }
   .swiper-slide {text-align: justify;}
   .swiper-pagination {padding: 5px;}
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
 }
