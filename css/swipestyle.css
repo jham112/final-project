@@ -25,9 +25,8 @@ img {
   font-family: 'Slabo 27px', 'Times New Roman', Palatino, serif;
 }
 
-
 .swiper-pagination {
-  margin-bottom: 2px;
+  display: none;
 }
 
 .sidenav {
@@ -91,7 +90,7 @@ img {
     margin-bottom: 1px;
   }
   .swiper-slide {text-align: justify;}
-  .swiper-pagination {padding-top: 10px;}
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 20px;}
+  .viewer {padding-bottom: 50px;}
 }

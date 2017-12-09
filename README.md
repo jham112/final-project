@@ -21,10 +21,32 @@ Week 2:
 
 This week I added a bit of CSS to my app. I added some background color and fonts.
 
-The  biggest challenge this week was getting my photos to resize on the mobile screen. Using the files Professor McAdams sent me, I based my resizing Javascript from her jQuery. The photos are able to be resized but only when they are clicked on. I'm trying to see if they can be resized on the mobile screen without being clicked on. I tried using the "load" function for the photos but that did not work. I am trying different ways for the photos to be resized but this code works the best. Should I have the pictures to be resized when clicked on or is there a way to adjust this Javascript code? I will keep trying but I will ask the professor in class on Tuesday.
+The biggest challenge this week was getting my photos to resize on the mobile screen. Using the files Professor McAdams sent me, I based my resizing Javascript from her jQuery. The photos are able to be resized but only when they are clicked on. I'm trying to see if they can be resized on the mobile screen without being clicked on. I tried using the "load" function for the photos but that did not work. I am trying different ways for the photos to be resized but this code works the best. Should I have the pictures to be resized when clicked on or is there a way to adjust this Javascript code? I will keep trying but I will ask the professor in class on Tuesday.
 
 I put the resizing jQuery file separate from the swiping Javascript because the swipe function seems to not work when the two are combined.
 
 For this week, I have finished putting in all of the images and restaurant locations in the HTMLs.
 
-Next week, I will finish the rest of the CSS so all of the pages look good. I will add a title screen HTML for the app. If I have time, I want to add a navigation bar so the user can move freely around different pages. 
+Next week, I will finish the rest of the CSS so all of the pages look good. I will add a title screen HTML for the app. If I have time, I want to add a navigation bar so the user can move freely around different pages.
+
+Week 3:
+
+This week I added a title screen to the app, a side navigation bar, and some CSS.
+
+The biggest challenge was the side navigation. It took a long time to input the side navigation bar into the HTML, Javascript, and CSS. The CSS was a big part of the side navigation panel. These were the websites I used as a guide for the side navigation menu:
+https://codepen.io/Shven/pen/chKqD
+http://mmenu.frebsite.nl/demo/index.html?demo=menu-advanced-3
+https://www.w3schools.com/jsref/prop_style_backgroundcolor.asp
+http://navnav.co/
+https://www.jqueryscript.net/demo/jQuery-Animated-Side-Navigation-Menu-Plugin-Sidebar/
+I wanted a side navigation to slide out rather than a top bar because I believe that a side menu would look better for mobile. I made the background color of the navigation panel the same as the app color to match.
+
+I saw a demo that dimmed the main page when the side navigation panel opened. When I searched online, they said using the RGB colors was the best way to get the opacity.
+
+I also found my error with the resizing of the images. The images are now responsive in mobile mode. The images resize themselves in landscape and portrait view on the phone.
+
+I also changed the visibility of the swipe-pagination (the dots of the swipe). I hid the dots because they kept overlapping the text of the photo attribution. For some reason, in mobile mode, the dots kept overlapping the text and I couldn't get them to move below the text. Something would stop it from moving further down. As a result, I hid the dots. I don't think they are needed for the app because the user can just swipe on their phone. 
+
+I added a title page to make it seem more like an app. The user would be aware of the name of the app and a short description explaining the app. After clicking the start button, the user would be lead to the food category page.
+
+A final problem I have left is the select menu on the food category page. I don't know if I didn't notice it before or if the select menu somehow changed but on my phone the select menu lets you choose more than one food. I want the user to only choose one. When looking at my website in responsive mode in the browser, the select menu doesn't change. But it changes on my phone. So I'm trying to figure out how to make the user choose only one on the mobile phone.
