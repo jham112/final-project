@@ -45,8 +45,10 @@ I saw a demo that dimmed the main page when the side navigation panel opened. Wh
 
 I also found my error with the resizing of the images. The images are now responsive in mobile mode. The images resize themselves in landscape and portrait view on the phone.
 
-I also changed the visibility of the swipe-pagination (the dots of the swipe). I hid the dots because they kept overlapping the text of the photo attribution. For some reason, in mobile mode, the dots kept overlapping the text and I couldn't get them to move below the text. Something would stop it from moving further down. As a result, I hid the dots. I don't think they are needed for the app because the user can just swipe on their phone. 
+I also changed the visibility of the swipe-pagination (the dots of the swipe). I hid the dots because they kept overlapping the text of the photo attribution. For some reason, in mobile mode, the dots kept overlapping the text and I couldn't get them to move below the text. Something would stop it from moving further down. As a result, I hid the dots. I don't think they are needed for the app because the user can just swipe on their phone.
 
 I added a title page to make it seem more like an app. The user would be aware of the name of the app and a short description explaining the app. After clicking the start button, the user would be lead to the food category page.
 
 A final problem I have left is the select menu on the food category page. I don't know if I didn't notice it before or if the select menu somehow changed but on my phone the select menu lets you choose more than one food. I want the user to only choose one. When looking at my website in responsive mode in the browser, the select menu doesn't change. But it changes on my phone. So I'm trying to figure out how to make the user choose only one on the mobile phone.
+
+The last things I will also do are some final CSS touches. I have been checking the validation of my HTMLs and my CSS. The only errors are with the Google fonts. 
