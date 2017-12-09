@@ -51,4 +51,4 @@ I added a title page to make it seem more like an app. The user would be aware o
 
 A final problem I have left is the select menu on the food category page. I don't know if I didn't notice it before or if the select menu somehow changed but on my phone the select menu lets you choose more than one food. I want the user to only choose one. When looking at my website in responsive mode in the browser, the select menu doesn't change. But it changes on my phone. So I'm trying to figure out how to make the user choose only one on the mobile phone.
 
-The last things I will also do are some final CSS touches. I have been checking the validation of my HTMLs and my CSS. The only errors are with the Google fonts. 
+The last things I will also do are some final CSS touches. I have been checking the validation of my HTMLs and my CSS. The only errors are the Google fonts.
