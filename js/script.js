@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
-        $("#select").change(function() {
-            location = $("#select option:selected").val();
+        $("#selectMenu").change(function() {
+            location = $("#selectMenu option:selected").val();
         });
 
 

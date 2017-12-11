@@ -19,7 +19,7 @@ h2 {font-family: 'Buda', 'Brush Script MT', cursive;}
   background: #fff;
   padding: 20px;
   padding-top: 0;
-  padding-bottom: 150px;
+  padding-bottom: 45px;
   width: 100%;
   border-radius: 6px;
 }
@@ -27,7 +27,7 @@ h2 {font-family: 'Buda', 'Brush Script MT', cursive;}
 p {
   margin: auto;
   text-align: justify;
-  margin-bottom: 15px;
+  margin-bottom: 13px;
   font-family: 'Slabo 27px', 'Times New Roman', Palatino, serif;
 }
 
@@ -37,6 +37,7 @@ form {
   margin-right: auto;
   font-family: 'Slabo 27px', 'Times New Roman', Palatino, serif;
   padding-top: 20px;
+  padding-bottom: 75px;
 }
 
 
@@ -46,6 +47,11 @@ option {
   font-family: 'Slabo 27px', 'Times New Roman', Palatino, serif;
 }
 
+#footNote {
+  font-size: 80%;
+  margin-bottom: 0;
+  text-align: center;
+}
 
 @media (max-width: 750px) {
   body {
