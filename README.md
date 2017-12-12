@@ -52,3 +52,16 @@ I added a title page to make it seem more like an app. The user would be aware o
 A final problem I have left is the select menu on the food category page. I don't know if I didn't notice it before or if the select menu somehow changed but on my phone the select menu lets you choose more than one food. I want the user to only choose one. When looking at my website in responsive mode in the browser, the select menu doesn't change. But it changes on my phone. So I'm trying to figure out how to make the user choose only one on the mobile phone.
 
 The last things I will also do are some final CSS touches. I have been checking the validation of my HTMLs and my CSS. The only errors are the Google fonts.
+
+Final summary of my project:
+
+App name: Pin-up. Eat-up.
+App description: A simple food guide to help satisfy your hunger.
+
+This app was created as a simple food guide to those who are English speaking travelers and food enthusiasts. For my final project, I focused on the location of the app to be in Seoul, South Korea.
+
+The app is picture based with the name of the food, restaurant, and restaurant location.
+
+I learned a lot through the process of working on this final project. I faced many obstacles but I was able to get my app to function through a ton of resources and many trial-and-errors. I would feel pretty frustrated and lost on what to do when I came across problems. So I would search for resources and demos online and ask questions in class/workshop. The biggest challenges were the swipe, the resizing of images in mobile view, and the side navigation panel.
+
+I believe that this was a very rewarding semester. I'm proud of my app and how the completion of it looks.
